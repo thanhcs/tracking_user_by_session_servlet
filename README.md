@@ -50,10 +50,10 @@ this group of query parameters will also be recorded if there is an active user 
 
 When there is no active user on a browser
 
-![Alt text](noUser.PNG?raw=true "No user active")
+![Alt text](noUser.png?raw=true "No user active")
 
 When there is a active user. Visited URL will keep the URL address user visited before the current one.
 
-![Alt text](userActive.PNG?raw=true "Active user")
+![Alt text](userActive.png?raw=true "Active user")
 
 
