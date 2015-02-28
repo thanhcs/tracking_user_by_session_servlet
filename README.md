@@ -24,9 +24,9 @@ Servlet will handle two groups of query parameters:
 
 Two query parameters used to start or end session depending on the value of session parameter client request
 
-** username ** keeps anyvalue except space
+* username * keeps anyvalue except space
 
-** session ** keeps "start" to start a new session or "end" to end the current session
+* session * keeps "start" to start a new session or "end" to end the current session
 
 * type, project, meeting
 
@@ -40,12 +40,20 @@ the output: Display the file inside the page: http://eavesdrop.openstack.org/mee
 
 this group of query parameters will also be recorded if there is an active user on that browser.
 
-** type ** keeps two values "irlogs" or "meetings"
+* type * keeps two values "irlogs" or "meetings"
 
-** project ** any project inside irlogs or meeting will be valid
+* project * any project inside irlogs or meeting will be valid
 
-** year ** keeps value from 2010 to 2015
+* year * keeps value from 2010 to 2015
 
-Data:
+### Example Pictures ###
+
+When there is no active user on a browser
+
+![Alt text](noUser.PNG?raw=true "No user active")
+
+When there is a active user. Visited URL will keep the URL address user visited before the current one.
+
+![Alt text](userActive.PNG?raw=true "Active user")
 
 
